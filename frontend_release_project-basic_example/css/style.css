@@ -26,6 +26,7 @@ header {
     border-radius: 30px;
 }
 
+
 .banner {
     width: 100%;
     height: 90vh;
@@ -114,11 +115,12 @@ header {
 footer {
     margin-top: 50px;
     background: rgb(73, 73, 73);
-    padding: 50px 100px;
-}
-
-footer {
+    padding: 25px 50px;
     color: #c8c8c8;
+
+    p {
+        margin: 0;
+    }
 }
 
 .attribution {
