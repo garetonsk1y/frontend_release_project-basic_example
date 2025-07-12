@@ -1,1 +1,0 @@
-# frontend_release_project-basic_example
