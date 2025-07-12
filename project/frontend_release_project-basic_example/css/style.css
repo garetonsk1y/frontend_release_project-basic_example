@@ -23,7 +23,7 @@ header {
 }
 
 .btn-search {
-    border-radius: 30px;
+    border-radius: 30px;    
 }
 
 
@@ -52,21 +52,22 @@ header {
 
 .my-card {
     padding: 28px;
-    background: transparent;
+    background: #92b56d;
     transition: .2s linear;
     border-radius: 10px;
     max-width: 350px;
+    color: #e9f8e7;
 }
 
 .my-card:hover {
-    background: #a4d479;
+    background: #a0c777;
     cursor: pointer;
     transition: .3s linear;
-    color: #1E352F;
+    color: #ffffff;
 }
 
 .light-theme .my-card:hover {
-    background: #ffffff;
+    background: #e9ffbb;
 
 }
 
@@ -104,6 +105,7 @@ header {
 }
 
 .container-cards {
+    gap: 25px;
     display: flex;
     width: 100%;
     justify-content: space-between;
